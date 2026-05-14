@@ -20,15 +20,11 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/Screenshot_3.png" alt="FILE CONVERTOR interface" width="80%">
-  <br>
-  <em>Main interface — format selection and conversion</em>
+  <img src="assets/screenshots/Screenshot_3.png" alt="FILE CONVERTOR" width="80%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/Screenshot_4.png" alt="FILE CONVERTOR settings" width="80%">
-  <br>
-  <em>Settings — language, quality, bitrate</em>
+  <img src="assets/screenshots/Screenshot_4.png" alt="FILE CONVERTOR" width="80%">
 </p>
 
 ---
