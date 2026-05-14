@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# Build
+dist/
+build/
+
+# EXEs (except root app)
+*.exe
+!/FileConvertor.exe
+
+# Installer output
+FileConvertor_Setup_*.exe
+
+# Config (auto-created at runtime)
+config.json
+history.json
+exports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
