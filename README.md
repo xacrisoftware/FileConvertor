@@ -1,75 +1,104 @@
-# FILE CONVERTOR
+<p align="center">
+  <img src="https://img.shields.io/badge/⬇%20FILE%20CONVERTOR-1.0.0-000?style=for-the-badge&labelColor=1a1a1a" alt="FILE CONVERTOR" height="50">
+</p>
 
-> Drop a file. Pick a format. Done.
+<p align="center">
+  <strong>A simple file converter for Windows.</strong><br>
+  <em>Drop a file, pick a format, go.</em>
+</p>
 
-A simple file converter for Windows. Works offline. No ads. No signup.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/Offline-Yes-success?style=flat-square" alt="Offline">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/stars/xacrisoftware/FileConvertor?style=flat-square" alt="Stars">
+</p>
 
 ---
 
 ## 📸 Screenshots
 
-![App](assets/screenshots/Screenshot_3.png)
-![Settings & formats](assets/screenshots/Screenshot_4.png)
+<p align="center">
+  <img src="assets/screenshots/Screenshot_3.png" alt="FILE CONVERTOR interface" width="80%">
+  <br>
+  <em>Main interface — format selection and conversion</em>
+</p>
 
----
-
-## 📦 What you can convert
-
-| Category | Formats | Count |
-|----------|---------|-------|
-| 🖼️ Images | PNG ↔ JPEG ↔ WEBP ↔ BMP ↔ GIF ↔ TIFF ↔ ICO ↔ AVIF ↔ PPM ↔ PCX ↔ TGA ↔ QOI ↔ DDS ↔ SGI ↔ PDF ↔ more | **29** |
-| 🎬 Video | MP4 ↔ AVI ↔ MOV ↔ MKV ↔ WEBM ↔ GIF ↔ FLV ↔ WMV ↔ M4V ↔ MPEG ↔ 3GP ↔ OGV ↔ TS ↔ VOB ↔ more | **17** |
-| 🎵 Audio | MP3 ↔ WAV ↔ OGG ↔ FLAC ↔ M4A ↔ AAC ↔ OPUS ↔ AIFF ↔ AC3 ↔ WMA ↔ more | **12** |
-| 📄 Documents | TXT ↔ PDF ↔ DOCX | **3** |
-| 🗜️ Archives | ZIP / TAR / TAR.GZ | **3** |
-| 📊 Data | CSV ⟷ JSON | **2** |
-
-**58 formats. 6 categories. One app.**
+<p align="center">
+  <img src="assets/screenshots/Screenshot_4.png" alt="FILE CONVERTOR settings" width="80%">
+  <br>
+  <em>Settings — language, quality, bitrate</em>
+</p>
 
 ---
 
 ## ✨ Features
 
-- Dark minimal UI — dark theme, Consolas font, sharp edges
-- Drag & drop — drop a file on the home page, app detects the type
-- Swap formats — one click to swap source and target (⇄)
-- Custom filename — edit output name before converting
-- Quality & bitrate — fine-tune images, audio, video
-- Cancel — stop conversion anytime
-- Open file — [OPEN] button appears after conversion
-- History — all conversions saved
-- English / Русский — switch in settings
-- 100% offline — your files stay on your computer
+| | |
+|---|---|
+| **58 formats** | Images, Video, Audio, Documents, Archives, Data |
+| **Dark theme** | Minimal UI, Consolas font, sharp corners |
+| **Fully offline** | Your files never leave your computer |
+| **Drag & drop** | Drop a file, app detects the type automatically |
+| **Swap formats** | One click to swap source ↔ target |
+| **Quality control** | Sliders for images, bitrate selectors for audio/video |
+
+---
+
+## 📦 What you can convert
+
+| Category | Supported formats |
+|----------|------------------|
+| 🖼️ **Images** (29) | PNG, JPEG, WEBP, BMP, GIF, TIFF, ICO, AVIF, JPEG2000, PPM, PCX, TGA, QOI, DDS, SGI, PDF |
+| 🎬 **Video** (17) | MP4, AVI, MOV, MKV, WEBM, GIF, FLV, WMV, M4V, MPEG, 3GP, OGV, TS, VOB |
+| 🎵 **Audio** (12) | MP3, WAV, OGG, FLAC, M4A, AAC, OPUS, AIFF, AC3, WMA |
+| 📄 **Documents** (3) | TXT ↔ PDF ↔ DOCX |
+| 🗜️ **Archives** (3) | ZIP / TAR / TAR.GZ — create or extract |
+| 📊 **Data** (2) | CSV ⟷ JSON |
 
 ---
 
 ## ⬇️ Download
 
-| Version | What to do |
-|---------|-----------|
-| **Portable** | Download `FileConvertor.exe` and run it. No install. |
-| **Installer** | Download `FileConvertor_Setup_v1.0.0.exe`, run, click Next. |
-| **From source** | `git clone` → `pip install -r requirements.txt` → `python src/main.py` |
+| Version | File | What to do |
+|---------|------|-----------|
+| 🪟 **Portable** | `FileConvertor.exe` | Download and run. No install. |
+| 📦 **Installer** | `FileConvertor_Setup_v1.0.0.exe` | Run, click Next, done. Desktop shortcut. |
+| 🐍 **Source** | `git clone ...` | Requires Python + dependencies |
 
-[Latest release →](https://github.com/xacrisoftware/FileConvertor/releases)
+**[Download latest →](https://github.com/xacrisoftware/FileConvertor/releases)**
+
+```bash
+# From source
+git clone https://github.com/xacrisoftware/FileConvertor.git
+cd FileConvertor
+pip install -r requirements.txt
+python src/main.py
+```
 
 ---
 
 ## 🔧 Requirements
 
-- Windows 10 or 11 (64-bit)
-- [FFmpeg](https://ffmpeg.org/) — needed for video & audio (`winget install ffmpeg` or download from ffmpeg.org)
+- **Windows 10 or 11** (64-bit)
+- **FFmpeg** — needed for video & audio conversion ([download](https://ffmpeg.org/) or `winget install ffmpeg`)
 
 ---
 
-## 🧱 Built with
+## 🧱 Tech stack
 
-[Python](https://python.org) + [CustomTkinter](https://customtkinter.tomschimansky.com)  
-[Pillow](https://python-pillow.org) · [moviepy](https://zulko.github.io/moviepy) · [pydub](https://github.com/jiaaro/pydub)  
-[fpdf2](https://pyfpdf.github.io/fpdf2) · [python-docx](https://python-docx.readthedocs.io) · [PyMuPDF](https://pymupdf.readthedocs.io)
+| Layer | Libraries |
+|-------|-----------|
+| **UI** | [Python](https://python.org) + [CustomTkinter](https://customtkinter.tomschimansky.com) |
+| **Images** | [Pillow](https://python-pillow.org) — 29 formats |
+| **Video** | [moviepy](https://zulko.github.io/moviepy) — 17 formats |
+| **Audio** | [pydub](https://github.com/jiaaro/pydub) — 12 formats |
+| **Documents** | [fpdf2](https://pyfpdf.github.io/fpdf2) + [python-docx](https://python-docx.readthedocs.io) + [PyMuPDF](https://pymupdf.readthedocs.io) |
+| **Archives** | zipfile / tarfile (stdlib) |
 
 ---
 
 ## 📄 License
 
-MIT — do whatever you want.
+MIT — do whatever you want. See [LICENSE](LICENSE).
