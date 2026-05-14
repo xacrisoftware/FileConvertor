@@ -11,6 +11,7 @@ a = Analysis(
         'csv', 'json', 'zipfile', 'tarfile',
         'moviepy',
         'imageio', 'imageio.plugins.ffmpeg',
+        'imageio_ffmpeg',
         'proglog',
     ],
     hookspath=[],

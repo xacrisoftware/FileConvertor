@@ -5,3 +5,4 @@ python-docx>=1.0.0
 pydub>=0.25.0
 pymupdf>=1.23.0
 moviepy>=2.0.0
+imageio-ffmpeg>=0.5.0
