@@ -9,9 +9,8 @@ __pycache__/
 dist/
 build/
 
-# EXEs (except root app)
+# EXEs
 *.exe
-!/FileConvertor.exe
 
 # Installer output
 FileConvertor_Setup_*.exe
