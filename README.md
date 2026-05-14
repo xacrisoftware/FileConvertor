@@ -8,10 +8,8 @@ A simple file converter for Windows. Works offline. No ads. No signup.
 
 ## 📸 Screenshots
 
-![Home](assets/screenshots/Screenshot_1.png)
-![Image converter](assets/screenshots/Screenshot_2.png)
-![Video converter](assets/screenshots/Screenshot_3.png)
-![Audio & settings](assets/screenshots/Screenshot_4.png)
+![App](assets/screenshots/Screenshot_3.png)
+![Settings & formats](assets/screenshots/Screenshot_4.png)
 
 ---
 
